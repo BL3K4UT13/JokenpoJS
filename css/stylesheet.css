@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Pixel Operator';
+    src: url('fonts\pixel_operator') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.padrao{
+    text-align: center;
+    font-family: 'Pixel Operator', 'Courier New', monospace;
+}
+
+.botao{
+    border: solid gray;
+    background-color:white; 
+    border-radius: 20px;
+    margin: 5px;
+    padding: 7px 12px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 5px -5px 15px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-family: 'Pixel Operator', 'Courier New', monospace
+}
+
+.botao:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    transform: scale(1.1);
+}
+
+.botao::selection{
+    background-color: gray;
+}
+
+.div-jogar{
+    width: 400px;
+    margin: 0 auto; 
+    padding-top: 20px;
+    border-top: 2px solid transparent;
+    border-radius: 30px 30px 0 0; 
+    text-align: center; 
+    box-shadow: 5px -5px 15px rgba(120, 120, 120, 0.1);
+}
